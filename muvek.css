@@ -1,0 +1,126 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f3f0;
+    color: #2a2a2a;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: linear-gradient(to right, #3e2723, #6d4c41);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.4rem;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    background-color: #4e342e;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .menu a:hover {
+    background-color: #8d6e63;
+  }
+  
+  /* Fő tartalom */
+  main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  /* Művek dobozok */
+  .muvek {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f8f5f3;
+    border-left: 6px solid #6d4c41;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  
+  /* Képek: fix méret, mellette az idézet */
+  .muvek img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex-shrink: 0;
+  }
+  
+  /* Címek */
+  .muvek h2 {
+    margin-top: 0;
+    color: #4e342e;
+  }
+  
+  /* Idézet és szöveg blokk */
+  .muvek-text {
+    flex: 1;
+  }
+  
+  /* Idézetblokk */
+  blockquote {
+    font-style: italic;
+    background-color: #eee;
+    border-left: 5px solid #8d6e63;
+    padding: 10px 15px;
+    margin: 15px 0;
+    color: #444;
+  }
+  
+  /* Linkstílus kontrasztosan */
+  a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  /* Lábléc */
+  footer {
+    background-color: #4e342e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+    margin-top: 60px;
+  }
+  
+  
+  img {
+    width: 100px;
+    height: 150px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
